@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/core/theme/app_color.dart';
 import 'package:todo_app/models/task.dart';
-
+import 'dart:convert';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,48 @@ class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController taskController = TextEditingController();
 
   final List<Task> tasks = [];
+
+  @override
+void initState() {
+  super.initState();
+  loadTasks();
+}
+
+Future<void> loadTasks() async {
+  final prefs = await SharedPreferences.getInstance();
+  final savedTasks = prefs.getString('tasks');
+
+  if (savedTasks != null) {
+    final List<dynamic> decodedTasks = jsonDecode(savedTasks);
+
+    if (!mounted) return;
+
+    setState(() {
+      tasks.clear();
+      tasks.addAll(
+        decodedTasks.map(
+          (task) => Task(
+            title: task['title'],
+            isDone: task['isDone'],
+          ),
+        ),
+      );
+    });
+  }
+}
+
+Future<void> saveTasks() async {
+  final prefs = await SharedPreferences.getInstance();
+
+  final encodedTasks = jsonEncode(
+    tasks.map((task) => {
+      'title': task.title,
+      'isDone': task.isDone,
+    }).toList(),
+  );
+
+  await prefs.setString('tasks', encodedTasks);
+}
 
   void addTask() {
     final String taskTitle = taskController.text.trim();
@@ -45,6 +88,8 @@ class _HomeScreenState extends State<HomeScreen> {
       );
     });
 
+saveTasks();
+
     taskController.clear();
     FocusScope.of(context).unfocus();
   }
@@ -53,13 +98,16 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       tasks[index].isDone = !tasks[index].isDone;
     });
+    saveTasks(); 
   }
 
-  void deleteTask(int index) {
-    setState(() {
-      tasks.removeAt(index);
-    });
-  }
+ void deleteTask(int index) {
+  setState(() {
+    tasks.removeAt(index);
+  });
+
+  saveTasks();
+}
 
   @override
   void dispose() {
