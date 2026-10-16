@@ -2,6 +2,12 @@
 
 A clean and modern To-Do List application built with Flutter. This app helps you manage your daily tasks efficiently with a user-friendly interface, using **BLoC** for predictable state management.
 
+## 📱 Screenshots
+
+<p align="center">
+  <img src="https://i.postimg.cc/gkLR3kWw/Whats-App-Image-2026-10-10-at-3-07-56-PM.jpg" width="600" alt="App Screenshots">
+</p>
+
 ## ✨ Features
 - **Add Tasks:** Quickly add new tasks using the text input field.
 - **Mark as Done:** Toggle task completion status with interactive checkboxes.
@@ -13,12 +19,6 @@ A clean and modern To-Do List application built with Flutter. This app helps you
 - **Framework:** Flutter / Dart
 - **State Management:** BLoC (Business Logic Component)
 - **Key Widgets Used:** `TextField`, `ListView.builder`, `IconButton`, `Checkbox`.
-
-## 📱 UI Overview
-The application features a modern UI with:
-- A prominent blue header with the motivational subtitle "Small steps, big progress ✨".
-- An intuitive input field with a floating `+` button to submit tasks.
-- A clean list view for tasks, clearly distinguishing between pending and completed items.
 
 ## 🚀 Getting Started
 
