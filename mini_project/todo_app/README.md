@@ -1,17 +1,27 @@
-# todo_app
+# Simple To-Do List App
 
-A new Flutter project.
+A clean and modern To-Do List application built with Flutter. This app helps you manage your daily tasks efficiently with a user-friendly interface, using **BLoC** for predictable state management.
 
-## Getting Started
+## 📱 Screenshots
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="https://i.postimg.cc/gkLR3kWw/Whats-App-Image-2026-10-10-at-3-07-56-PM.jpg" width="600" alt="App Screenshots">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- **Add Tasks:** Quickly add new tasks using the text input field.
+- **Mark as Done:** Toggle task completion status with interactive checkboxes.
+- **Delete Tasks:** Remove unwanted tasks easily using the red delete icon.
+- **Empty State Handling:** Displays a beautiful illustration and a "No tasks yet!" message when the list is empty.
+- **In-Memory Storage:** Tasks are kept in memory during the app's lifecycle.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🛠️ Tech Stack & Concepts
+- **Framework:** Flutter / Dart
+- **State Management:** BLoC (Business Logic Component)
+- **Key Widgets Used:** `TextField`, `ListView.builder`, `IconButton`, `Checkbox`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies (including `flutter_bloc`).
+3. Run the app using `flutter run`.
