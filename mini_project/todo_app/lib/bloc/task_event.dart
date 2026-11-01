@@ -22,3 +22,9 @@ class DeleteTaskEvent extends TaskEvent {
 
   const DeleteTaskEvent(this.id);
 }
+class EditTaskEvent extends TaskEvent {
+  final String id;
+  final String newTitle;
+
+  const EditTaskEvent(this.id, this.newTitle);
+}

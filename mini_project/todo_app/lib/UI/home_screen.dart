@@ -4,6 +4,7 @@ import '../bloc/task_bloc.dart';
 import '../bloc/task_event.dart';
 import '../bloc/task_state.dart';
 import '../core/theme/app_color.dart';
+import '../models/task_model.dart';
 import 'widgets/task_item.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -28,6 +29,37 @@ class _HomeScreenState extends State<HomeScreen> {
       context.read<TaskBloc>().add(AddTaskEvent(title));
       _taskController.clear();
     }
+  }
+
+  void _showEditDialog(Task task) {
+    final controller = TextEditingController(text: task.title);
+
+    showDialog(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Edit Task'),
+        content: TextField(
+          controller: controller,
+          autofocus: true,
+          decoration: const InputDecoration(hintText: 'Task title'),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext),
+            child: const Text('Cancel'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              context
+                  .read<TaskBloc>()
+                  .add(EditTaskEvent(task.id, controller.text));
+              Navigator.pop(dialogContext);
+            },
+            child: const Text('Save'),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -70,7 +102,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     onSubmitted: (_) => _addTask(),
                     decoration: InputDecoration(
                       hintText: 'Add a new task...',
-                      hintStyle: const TextStyle(color: AppColors.grey, fontSize: 15),
+                      hintStyle:
+                          const TextStyle(color: AppColors.grey, fontSize: 15),
                       filled: true,
                       fillColor: Colors.white,
                       contentPadding: const EdgeInsets.symmetric(
@@ -171,6 +204,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               .read<TaskBloc>()
                               .add(DeleteTaskEvent(task.id));
                         },
+                        onEdit: () => _showEditDialog(task),
                       );
                     },
                   );
