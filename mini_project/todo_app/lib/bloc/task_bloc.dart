@@ -8,6 +8,7 @@ class TaskBloc extends Bloc<TaskEvent, TaskState> {
     on<AddTaskEvent>(_onAddTask);
     on<ToggleTaskEvent>(_onToggleTask);
     on<DeleteTaskEvent>(_onDeleteTask);
+    on<EditTaskEvent>(_onEditTask);
   }
 
   void _onAddTask(AddTaskEvent event, Emitter<TaskState> emit) {
@@ -37,4 +38,17 @@ class TaskBloc extends Bloc<TaskEvent, TaskState> {
     final updatedTasks = state.tasks.where((task) => task.id != event.id).toList();
     emit(state.copyWith(tasks: updatedTasks));
   }
+  void _onEditTask(EditTaskEvent event, Emitter<TaskState> emit) {
+  if (event.newTitle.trim().isEmpty) return;
+
+  final updatedTasks = state.tasks.map((task) {
+    if (task.id == event.id) {
+      return task.copyWith(title: event.newTitle.trim());
+    }
+    return task;
+  }).toList();
+
+  emit(state.copyWith(tasks: updatedTasks));
 }
+}
+
