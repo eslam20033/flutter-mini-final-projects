@@ -1,0 +1,626 @@
+{
+  "@@locale": "en",
+  "authRegistrationSignInFailed": "Your account was created, but sign-in did not finish. Use Sign in to continue.",
+  "@authRegistrationSignInFailed": {
+    "description": "Registration: Your account was created, but sign-in did not finish. Use Sign in to continue."
+  },
+  "careerTitle": "Career preferences",
+  "careerExperienceLevel": "Experience level (optional)",
+  "@careerExperienceLevel": {
+    "description": "Free-text experience or qualification level, if relevant to the user's profession."
+  },
+  "careerExperienceLevelHint": "Describe your level, if relevant to your field",
+  "@careerExperienceLevelHint": {
+    "description": "Hint for the optional experience level field."
+  },
+  "@careerTitle": {
+    "description": "Career preferences: Career preferences"
+  },
+  "careerHeading": "What comes next for you?",
+  "@careerHeading": {
+    "description": "Career preferences: What comes next for you?"
+  },
+  "careerSubtitle": "Tell us what you’re looking for, in any profession. Only your preferred job title is required.",
+  "@careerSubtitle": {
+    "description": "Career preferences: Tell us what you’re looking for, in any profession. Only your preferred job title is required."
+  },
+  "careerJobTitle": "Preferred job title *",
+  "@careerJobTitle": {
+    "description": "Career preferences: Preferred job title *"
+  },
+  "careerJobTitleHint": "Enter any role you’re interested in",
+  "@careerJobTitleHint": {
+    "description": "Career preferences: Enter any role you’re interested in"
+  },
+  "careerIndustry": "Field or industry (optional)",
+  "@careerIndustry": {
+    "description": "Career preferences: Field or industry (optional)"
+  },
+  "careerIndustryHint": "Enter your professional field",
+  "@careerIndustryHint": {
+    "description": "Career preferences: Enter your professional field"
+  },
+  "careerExperience": "Years of experience (optional)",
+  "@careerExperience": {
+    "description": "Career preferences: Years of experience (optional)"
+  },
+  "careerExperienceHint": "Enter years, including zero",
+  "@careerExperienceHint": {
+    "description": "Career preferences: Enter years, including zero"
+  },
+  "careerLocation": "Preferred location (optional)",
+  "@careerLocation": {
+    "description": "Career preferences: Preferred location (optional)"
+  },
+  "careerLocationHint": "City, region, country, or anywhere",
+  "@careerLocationHint": {
+    "description": "Career preferences: City, region, country, or anywhere"
+  },
+  "careerArrangement": "Preferred work arrangement",
+  "@careerArrangement": {
+    "description": "Career preferences: Preferred work arrangement"
+  },
+  "careerArrangementAny": "Any arrangement",
+  "@careerArrangementAny": {
+    "description": "Career preferences: Any arrangement"
+  },
+  "careerArrangementOnSite": "On-site",
+  "@careerArrangementOnSite": {
+    "description": "Career preferences: On-site"
+  },
+  "careerArrangementHybrid": "Hybrid",
+  "@careerArrangementHybrid": {
+    "description": "Career preferences: Hybrid"
+  },
+  "careerArrangementRemote": "Remote",
+  "@careerArrangementRemote": {
+    "description": "Career preferences: Remote"
+  },
+  "careerQualifications": "Skills or qualifications (optional)",
+  "@careerQualifications": {
+    "description": "Career preferences: Skills or qualifications (optional)"
+  },
+  "careerQualificationsHint": "Add relevant skills, licences, training, or qualifications",
+  "@careerQualificationsHint": {
+    "description": "Career preferences: Add relevant skills, licences, training, or qualifications"
+  },
+  "careerSave": "Save and continue",
+  "@careerSave": {
+    "description": "Career preferences: Save and continue"
+  },
+  "careerSaved": "Career preferences saved.",
+  "@careerSaved": {
+    "description": "Career preferences: Career preferences saved."
+  },
+  "careerTitleRequired": "Enter your preferred job title.",
+  "@careerTitleRequired": {
+    "description": "Career preferences: Enter your preferred job title."
+  },
+  "careerTextTooLong": "Use {length} characters or fewer.",
+  "@careerTextTooLong": {
+    "description": "Career preferences: Use {length} characters or fewer.",
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "careerExperienceInvalid": "Enter a number from 0 to 100. Decimals are welcome.",
+  "@careerExperienceInvalid": {
+    "description": "Career preferences: Enter a number from 0 to 100. Decimals are welcome."
+  },
+  "careerYearsSummary": "Experience: {years} years",
+  "@careerYearsSummary": {
+    "description": "Career preferences: Experience: {years} years",
+    "placeholders": {
+      "years": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "careerLoadError": "Career preferences are unavailable. Please try again later.",
+  "@careerLoadError": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "careerSaveError": "Preferences could not be saved. Please try again later.",
+  "@careerSaveError": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Home dashboard: Home"
+  },
+  "homeSubtitle": "Your next opportunity starts with you.",
+  "@homeSubtitle": {
+    "description": "Home dashboard: Your next opportunity starts with you."
+  },
+  "homeCv": "My CV",
+  "@homeCv": {
+    "description": "Home dashboard: My CV"
+  },
+  "homeJobs": "Jobs",
+  "@homeJobs": {
+    "description": "Home dashboard: Jobs"
+  },
+  "homeSaved": "Saved",
+  "@homeSaved": {
+    "description": "Home dashboard: Saved"
+  },
+  "homeNotifications": "Notifications",
+  "@homeNotifications": {
+    "description": "Home dashboard: Notifications"
+  },
+  "homeCvTitle": "Bring your experience to life",
+  "@homeCvTitle": {
+    "description": "Home dashboard: Bring your experience to life"
+  },
+  "homeCvDescription": "Your CV journey starts here. Upload and analysis will be available soon; no CV has been uploaded or analysed yet.",
+  "@homeCvDescription": {
+    "description": "Home dashboard: Your CV journey starts here. Upload and analysis will be available soon; no CV has been uploaded or analysed yet."
+  },
+  "homeUploadCv": "Upload CV",
+  "@homeUploadCv": {
+    "description": "Home dashboard: Upload CV"
+  },
+  "homePreferencesTitle": "Your career direction",
+  "@homePreferencesTitle": {
+    "description": "Home dashboard: Your career direction"
+  },
+  "homePreferencesEmpty": "Add your interests to keep your next career move in focus.",
+  "@homePreferencesEmpty": {
+    "description": "Home dashboard: Add your interests to keep your next career move in focus."
+  },
+  "homeAddPreferences": "Set career preferences",
+  "@homeAddPreferences": {
+    "description": "Home dashboard: Set career preferences"
+  },
+  "homeEditPreferences": "Edit preferences",
+  "@homeEditPreferences": {
+    "description": "Home dashboard: Edit preferences"
+  },
+  "homeRecommendations": "Job recommendations",
+  "@homeRecommendations": {
+    "description": "Home dashboard: Job recommendations"
+  },
+  "homeViewAll": "View all",
+  "@homeViewAll": {
+    "description": "Home dashboard: View all"
+  },
+  "homeViewDetails": "View details",
+  "@homeViewDetails": {
+    "description": "Home dashboard: View details"
+  },
+  "homeSaveJob": "Save job",
+  "@homeSaveJob": {
+    "description": "Home dashboard: Save job"
+  },
+  "homeJobDetails": "Job details",
+  "@homeJobDetails": {
+    "description": "Home dashboard: Job details"
+  },
+  "homeJobsEmptyTitle": "No recommendations yet",
+  "@homeJobsEmptyTitle": {
+    "description": "Home dashboard: No recommendations yet"
+  },
+  "homeJobsEmptyMessage": "Your preferences are ready to edit. New recommendations will appear here when available.",
+  "@homeJobsEmptyMessage": {
+    "description": "Home dashboard: Your preferences are ready to edit. New recommendations will appear here when available."
+  },
+  "homeLoadError": "Dashboard data is unavailable. Please try again later.",
+  "@homeLoadError": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "authLoginTitle": "Welcome back",
+  "@authLoginTitle": {
+    "description": "Login heading."
+  },
+  "authLoginSubtitle": "Sign in to find your next opportunity.",
+  "@authLoginSubtitle": {
+    "description": "Career-neutral login introduction."
+  },
+  "authSignupTitle": "Create your account",
+  "@authSignupTitle": {
+    "description": "Registration heading."
+  },
+  "authSignupSubtitle": "Start your career journey, in any field.",
+  "@authSignupSubtitle": {
+    "description": "Career-neutral registration introduction."
+  },
+  "authFullName": "Full name",
+  "@authFullName": {
+    "description": "Name field label."
+  },
+  "authFullNameHint": "Enter your full name",
+  "@authFullNameHint": {
+    "description": "Name input hint without sample personal data."
+  },
+  "authEmail": "Email address",
+  "@authEmail": {
+    "description": "Email field label."
+  },
+  "authEmailHint": "name@example.com",
+  "@authEmailHint": {
+    "description": "Illustrative email input hint."
+  },
+  "authPassword": "Password",
+  "@authPassword": {
+    "description": "Password field label."
+  },
+  "authPasswordHint": "Enter your password",
+  "@authPasswordHint": {
+    "description": "Password hint."
+  },
+  "authConfirmPassword": "Confirm password",
+  "@authConfirmPassword": {
+    "description": "Confirmation field label."
+  },
+  "authConfirmPasswordHint": "Re-enter your password",
+  "@authConfirmPasswordHint": {
+    "description": "Confirmation field hint."
+  },
+  "authSignIn": "Sign in",
+  "@authSignIn": {
+    "description": "Login action."
+  },
+  "authSignUp": "Sign up",
+  "@authSignUp": {
+    "description": "Registration action and link."
+  },
+  "authForgotPassword": "Forgot password?",
+  "@authForgotPassword": {
+    "description": "Password reset link."
+  },
+  "authForgotTitle": "Forgot password?",
+  "@authForgotTitle": {
+    "description": "Forgot Password screen title."
+  },
+  "authForgotMessage": "Enter your email address to request password reset instructions.",
+  "@authForgotMessage": {
+    "description": "Introduction for a future email-link recovery adapter."
+  },
+  "authSendResetInstructions": "Send reset instructions",
+  "authRecoveryInstructionsRequested": "If an account exists for this email, check your inbox for reset instructions.",
+  "authBackToLogin": "Back to sign in",
+  "authResetTitle": "Reset password",
+  "authResetSubtitle": "Choose a new password and enter it again to confirm.",
+  "authResetAccount": "Account email",
+  "authNewPassword": "New password",
+  "authConfirmNewPassword": "Confirm new password",
+  "authResetPassword": "Reset password",
+  "authResetSuccessTitle": "Password updated",
+  "authResetSuccess": "Your password was updated successfully.",
+  "authResetSignInPrompt": "You can now sign in with your new password.",
+  "authRecoveryExpired": "This reset request is no longer available. Start password recovery again.",
+  "authRestartRecovery": "Start recovery again",
+  "@authSendResetInstructions": {
+    "description": "Action for a future real email-link adapter."
+  },
+  "@authRecoveryInstructionsRequested": {
+    "description": "Non-enumerating feedback for a real email-link adapter only."
+  },
+  "@authBackToLogin": {
+    "description": "Recovery link back to Login."
+  },
+  "@authResetTitle": {
+    "description": "Reset Password heading."
+  },
+  "@authResetSubtitle": {
+    "description": "New password form introduction."
+  },
+  "@authResetAccount": {
+    "description": "Label for the account being reset."
+  },
+  "@authNewPassword": {
+    "description": "New password field label."
+  },
+  "@authConfirmNewPassword": {
+    "description": "New password confirmation label."
+  },
+  "@authResetPassword": {
+    "description": "Password update action for a real adapter."
+  },
+  "@authResetSuccessTitle": {
+    "description": "Successful reset heading."
+  },
+  "@authResetSuccess": {
+    "description": "Real adapter reset success."
+  },
+  "@authResetSignInPrompt": {
+    "description": "Accessible success instruction."
+  },
+  "@authRecoveryExpired": {
+    "description": "Safe feedback for an unavailable or consumed request."
+  },
+  "@authRestartRecovery": {
+    "description": "Restart a failed or expired reset flow."
+  },
+  "authDismiss": "Got it",
+  "@authDismiss": {
+    "description": "Dismiss informational feedback."
+  },
+  "authNoAccount": "New here?",
+  "@authNoAccount": {
+    "description": "Registration link prompt."
+  },
+  "authHaveAccount": "Already have an account?",
+  "@authHaveAccount": {
+    "description": "Login link prompt."
+  },
+  "authOrContinueWith": "Or continue with",
+  "@authOrContinueWith": {
+    "description": "Social sign-in separator."
+  },
+  "authGoogle": "Google",
+  "@authGoogle": {
+    "description": "Social provider brand."
+  },
+  "authApple": "Apple",
+  "@authApple": {
+    "description": "Social provider brand."
+  },
+  "authProviderUnavailable": "This sign-in method is currently unavailable. Please use your email and password.",
+  "@authProviderUnavailable": {
+    "description": "Feedback when an authentication provider is unavailable."
+  },
+  "authShowPassword": "Show password",
+  "@authShowPassword": {
+    "description": "Password visibility tooltip."
+  },
+  "authHidePassword": "Hide password",
+  "@authHidePassword": {
+    "description": "Password visibility tooltip."
+  },
+  "authRegistrationSuccess": "Account created. Sign in to continue.",
+  "@authRegistrationSuccess": {
+    "description": "Registration success feedback on login."
+  },
+  "authFailureTitle": "Unable to continue",
+  "@authFailureTitle": {
+    "description": "Authentication error heading."
+  },
+  "authInvalidCredentials": "Email or password is incorrect. Please try again.",
+  "@authInvalidCredentials": {
+    "description": "Login failure without revealing account existence."
+  },
+  "authEmailInUse": "An account already uses this email. Sign in or use another email address.",
+  "@authEmailInUse": {
+    "description": "Duplicate registration feedback."
+  },
+  "authUnavailable": "Authentication is unavailable. Please try again later.",
+  "@authUnavailable": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "authNameRequired": "Enter your full name.",
+  "@authNameRequired": {
+    "description": "Required name validation."
+  },
+  "authEmailRequired": "Enter your email address.",
+  "@authEmailRequired": {
+    "description": "Required email validation."
+  },
+  "authEmailInvalid": "Enter a valid email address, such as name@example.com.",
+  "@authEmailInvalid": {
+    "description": "Email format validation."
+  },
+  "authPasswordRequired": "Enter your password.",
+  "@authPasswordRequired": {
+    "description": "Required password validation."
+  },
+  "authPasswordTooShort": "Use at least {length} characters.",
+  "@authPasswordTooShort": {
+    "description": "Minimum registration password length.",
+    "placeholders": {
+      "length": {
+        "type": "int"
+      }
+    }
+  },
+  "authConfirmationRequired": "Confirm your password.",
+  "@authConfirmationRequired": {
+    "description": "Required password confirmation."
+  },
+  "authPasswordMismatch": "Passwords do not match.",
+  "@authPasswordMismatch": {
+    "description": "Password confirmation validation."
+  },
+  "authWelcome": "Welcome, {name}",
+  "@authWelcome": {
+    "description": "Post-login greeting using the authenticated user's name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "authAccountTitle": "Your account",
+  "@authAccountTitle": {
+    "description": "Signed-in account page title."
+  },
+  "authSignOut": "Sign out",
+  "@authSignOut": {
+    "description": "Clear the temporary demo session."
+  },
+  "appTitle": "Resume Job Finder",
+  "@appTitle": {
+    "description": "Application title."
+  },
+  "loading": "Loading…",
+  "@loading": {
+    "description": "Accessible label for loading indicators."
+  },
+  "errorTitle": "Something went wrong",
+  "@errorTitle": {
+    "description": "Default error state heading."
+  },
+  "errorMessage": "Please try again.",
+  "@errorMessage": {
+    "description": "Default user-facing error message."
+  },
+  "retry": "Try again",
+  "@retry": {
+    "description": "Retry action label."
+  },
+  "emptyTitle": "Nothing here yet",
+  "@emptyTitle": {
+    "description": "Default empty state heading."
+  },
+  "emptyMessage": "There is no content to display.",
+  "@emptyMessage": {
+    "description": "Default empty state message."
+  },
+  "pageNotFoundTitle": "Page not found",
+  "@pageNotFoundTitle": {
+    "description": "Unknown route heading."
+  },
+  "pageNotFoundMessage": "This page is unavailable.",
+  "@pageNotFoundMessage": {
+    "description": "Unknown route message without internal error details."
+  },
+  "backToStart": "Back to start",
+  "@backToStart": {
+    "description": "Action to return to the startup route."
+  },
+  "splashBrandFirst": "Automated Resume",
+  "@splashBrandFirst": {
+    "description": "First brand line, retained in English in both Figma languages."
+  },
+  "splashBrandSecond": "Matching & Job Finder App",
+  "@splashBrandSecond": {
+    "description": "Second brand line shown in the splash."
+  },
+  "splashTagline": "Your AI-powered career companion",
+  "@splashTagline": {
+    "description": "Splash tagline; Arabic copy reconstructed from the available truncated Figma metadata."
+  },
+  "splashProgressLabel": "Opening the introduction",
+  "@splashProgressLabel": {
+    "description": "Accessible description of the introductory animation, not backend progress."
+  },
+  "onboardingResumeTitle": "One resume. Smarter opportunities.",
+  "@onboardingResumeTitle": {
+    "description": "Resume slide heading; English completion follows the available truncated reference."
+  },
+  "onboardingResumeBody": "Upload your CV once. AI extracts your skills and experience to help you find the right opportunities.",
+  "@onboardingResumeBody": {
+    "description": "Resume introduction; reconstructed where the Figma text was unavailable."
+  },
+  "onboardingAnalysisTitle": "Understand your strengths",
+  "@onboardingAnalysisTitle": {
+    "description": "AI analysis slide heading."
+  },
+  "onboardingAnalysisBody": "Explore your strengths, opportunities and skills that need improvement.",
+  "@onboardingAnalysisBody": {
+    "description": "Analysis introduction; Arabic completion follows the available metadata."
+  },
+  "onboardingMatchingTitle": "Discover jobs that match your experience",
+  "@onboardingMatchingTitle": {
+    "description": "Career-neutral job matching introduction for every profession."
+  },
+  "onboardingMatchingBody": "Get ranked job matches with clear scores and actionable skill gaps.",
+  "@onboardingMatchingBody": {
+    "description": "Matching introduction; Arabic completion follows the available metadata."
+  },
+  "onboardingSkip": "Skip",
+  "@onboardingSkip": {
+    "description": "Exit onboarding without visiting all slides."
+  },
+  "onboardingContinue": "Continue",
+  "@onboardingContinue": {
+    "description": "Move to the next introduction slide."
+  },
+  "onboardingGetStarted": "Get started",
+  "@onboardingGetStarted": {
+    "description": "Finish onboarding and open the temporary destination."
+  },
+  "onboardingResumeIllustration": "Illustration of a resume",
+  "@onboardingResumeIllustration": {
+    "description": "Description of decorative resume artwork."
+  },
+  "onboardingAnalysisIllustration": "Illustration of skill analysis",
+  "@onboardingAnalysisIllustration": {
+    "description": "Description of decorative skill badges."
+  },
+  "onboardingMatchingIllustration": "Illustration of an example job match",
+  "@onboardingMatchingIllustration": {
+    "description": "Makes clear that the illustrated job and score are examples, not real results."
+  },
+  "introCvLabel": "CV",
+  "@introCvLabel": {
+    "description": "Resume badge in the illustration."
+  },
+  "introJobTitle": "Recommended opportunity",
+  "@introJobTitle": {
+    "description": "Generic illustrated opportunity, not a profession or user data."
+  },
+  "introMatchLabel": "Match",
+  "@introMatchLabel": {
+    "description": "Caption for the decorative sample score."
+  },
+  "onboardingPageLabel": "Page {page} of {total}",
+  "@onboardingPageLabel": {
+    "description": "Accessible current slide announcement.",
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "introExperienceLabel": "Experience",
+  "@introExperienceLabel": {
+    "description": "Career-neutral area shown in the analysis illustration."
+  },
+  "introSkillsLabel": "Skills",
+  "@introSkillsLabel": {
+    "description": "Career-neutral area shown in the analysis illustration."
+  },
+  "introGoalsLabel": "Goals",
+  "@introGoalsLabel": {
+    "description": "Career-neutral area shown in the analysis illustration."
+  },
+  "introStrengthsLabel": "Strengths",
+  "@introStrengthsLabel": {
+    "description": "Career-neutral area shown in the analysis illustration."
+  },
+  "introJobExample": "Career matching",
+  "@introJobExample": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "introMatchPercentage": "{score}",
+  "@introMatchPercentage": {
+    "description": "Formats a supplied fraction as a localized percentage. This is display formatting, not a matching calculation.",
+    "placeholders": {
+      "score": {
+        "type": "double",
+        "format": "percentPattern"
+      }
+    }
+  },
+  "sessionUnavailable": "Your session could not be restored. Please try again.",
+  "@sessionUnavailable": {
+    "description": "Localized status or label; never a generated service result."
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {"description": "Settings sheet title and entry tooltip."},
+  "settingsLanguage": "Language",
+  "@settingsLanguage": {"description": "Language selection heading."},
+  "settingsArabic": "العربية",
+  "@settingsArabic": {"description": "Arabic language name in its own script."},
+  "settingsEnglish": "English",
+  "@settingsEnglish": {"description": "English language name in its own script."},
+  "settingsAppearance": "Appearance",
+  "@settingsAppearance": {"description": "Theme selection heading."},
+  "settingsLight": "Light mode",
+  "@settingsLight": {"description": "Light theme option."},
+  "settingsDark": "Dark mode",
+  "@settingsDark": {"description": "Dark theme option."},
+  "settingsSystem": "System default",
+  "@settingsSystem": {"description": "Follow device appearance option."},
+  "introMatchUnavailable": "Not rated",
+  "@introMatchUnavailable": {
+    "description": "Localized status or label; never a generated service result."
+  }
+}
