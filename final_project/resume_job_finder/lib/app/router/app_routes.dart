@@ -1,0 +1,20 @@
+abstract final class AppRoutes {
+  static const start = '/';
+  static const startName = 'start';
+  static const onboarding = '/onboarding';
+  static const onboardingName = 'onboarding';
+  static const login = '/login';
+  static const loginName = 'login';
+  static const signUp = '/sign-up';
+  static const signUpName = 'signUp';
+  static const forgotPassword = '/forgot-password';
+  static const forgotPasswordName = 'forgotPassword';
+  static const resetPassword = '/reset-password';
+  static const resetPasswordName = 'resetPassword';
+  static const careerPreferences = '/career-preferences';
+  static const careerPreferencesName = 'careerPreferences';
+  static const home = '/home';
+  static const homeName = 'home';
+  static const preview = '/preview';
+  static const previewName = 'preview';
+}
